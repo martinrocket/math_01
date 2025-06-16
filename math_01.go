@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(math.Pi)
 	fmt.Println(math.Cos(60))
 	fmt.Println(math.Sin(60))
+	fmt.Println("yes")
 }
