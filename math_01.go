@@ -8,4 +8,5 @@ import (
 func main(){
   fmt.Println("hello there")
     fmt.Println(math.Pi)
+    fmt.Println(math.cos(60))
   }
