@@ -20,7 +20,7 @@ func main() {
 		fmt.Print(math.Abs(float64(i)), " ")
 		fmt.Println(absandsqrt(i))
 	}
-	fmt.Print("/n/n")
+	fmt.Print("\n\n")
 	fmt.Println("Understanding Buffers:")
 
 }
