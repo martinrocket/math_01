@@ -24,5 +24,5 @@ func main() {
 	fmt.Print("\n\n")
 	fmt.Println("Understanding Buffers:")
 	w := new(Writer)
-	fmt.Println(*w)
+	fmt.Println(w)
 }
