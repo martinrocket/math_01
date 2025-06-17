@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"strings"
 	
 )
 
@@ -10,12 +11,6 @@ func absandsqrt(x int) float64 {
 	return math.Pow(math.Abs(float64(x)), 2)
 }
 
-type Writer int
-
-func (*Writer) Write(p []byte) (n int, err error) {
-    fmt.Println(len(p))
-    return len(p), nil
-}
 
 
 func main() {
@@ -29,8 +24,9 @@ func main() {
 		fmt.Println(absandsqrt(i))
 	}
 	fmt.Print("\n\n")
-	fmt.Println("Understanding Buffers:")
-	w := new(Writer)
-	w.Write([]byte{"a"})
+	var myString strings.Builder
+	fmt.Fprintf(&myString, "abcd")
+	fmt.Println(myString.String)
 
 }
+
