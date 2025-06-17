@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"writer"
 )
 
 func absandsqrt(x int) float64 {
@@ -22,5 +23,6 @@ func main() {
 	}
 	fmt.Print("\n\n")
 	fmt.Println("Understanding Buffers:")
-
+	w := new(Writer)
+	fmt.Println(*w)
 }
