@@ -26,7 +26,7 @@ func main() {
 	fmt.Print("\n\n")
 	var myString strings.Builder
 	fmt.Fprintf(&myString, "abcd")
-	fmt.Println(myString.String)
+	fmt.Println(myString.String())
 
 }
 
