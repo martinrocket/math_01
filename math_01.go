@@ -5,9 +5,11 @@ import (
 	"math"
 )
 
-func Absandsqrt(x int) float64 {
+func absandsqrt(x int) float64 {
 	return math.Pow(math.Abs(float64(x)), 2)
 }
+
+func 
 
 func main() {
 	/* Starting out with a loop that goes from neg 5 to
@@ -17,7 +19,7 @@ func main() {
 	for i := -5; i <= 5; i++ {
 		fmt.Print(i, " ")
 		fmt.Print(math.Abs(float64(i)), " ")
-		fmt.Println(Absandsqrt(i))
+		fmt.Println(absandsqrt(i))
 	}
 
 }
