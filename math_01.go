@@ -18,6 +18,10 @@ func main() {
 	positive 5 then does a math.Abs (absolute value)
 	calculation to i*/
 
+	var myList string
+	myList = "abcdefg"
+	fmt.Println(myList)
+
 	for i := -5; i <= 5; i++ {
 		fmt.Print(i, " ")
 		fmt.Print(math.Abs(float64(i)), " ")
