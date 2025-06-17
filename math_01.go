@@ -10,6 +10,13 @@ func absandsqrt(x int) float64 {
 	return math.Pow(math.Abs(float64(x)), 2)
 }
 
+type Writer int
+
+func (*Writer) Write(p []byte) (n int, err error) {
+    fmt.Println(len(p))
+    return len(p), nil
+}
+
 
 func main() {
 	/* Starting out with a loop that goes from neg 5 to
