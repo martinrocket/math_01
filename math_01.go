@@ -13,9 +13,6 @@ func absandsqrt(x int) (float64, float64, float64) {
 	}
 }
 
-for i := 0; i < 5; i++ {
-        fmt.Println(i) // Prints 0, 1, 2, 3, 4
-    }
 
 
 
