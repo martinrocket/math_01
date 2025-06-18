@@ -7,9 +7,15 @@ import (
 	
 )
 
-func absandsqrt(x int) float64 {
-	return math.Pow(math.Abs(float64(x)), 2)
+func absandsqrt(x int) (float64, float64, float64) {
+	for i:= 2; i < 4; i++ {
+		return math.Pow(math.Abs(float64(x)), i)
+	}
 }
+
+for i := 0; i < 5; i++ {
+        fmt.Println(i) // Prints 0, 1, 2, 3, 4
+    }
 
 
 
