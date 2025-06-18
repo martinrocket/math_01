@@ -12,6 +12,7 @@ func absandsqrt(x int) (float64, float64, float64) {
 	a = math.Pow(math.Abs(float64(x)), 2)
 	b = math.Pow(math.Abs(float64(x)), 3)
 	c = math.Pow(math.Abs(float64(x)), 4)
+	return a, b, c
     }
 
 
